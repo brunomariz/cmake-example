@@ -1,0 +1,6 @@
+/home/bruno/projects/cmake-example/build/CMakeFiles/example.dir
+/home/bruno/projects/cmake-example/build/CMakeFiles/edit_cache.dir
+/home/bruno/projects/cmake-example/build/CMakeFiles/rebuild_cache.dir
+/home/bruno/projects/cmake-example/build/MyLibrary/CMakeFiles/MyLibrary.dir
+/home/bruno/projects/cmake-example/build/MyLibrary/CMakeFiles/edit_cache.dir
+/home/bruno/projects/cmake-example/build/MyLibrary/CMakeFiles/rebuild_cache.dir
