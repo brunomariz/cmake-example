@@ -11,5 +11,8 @@ add_subdirectory(MyLibrary)
 target_link_libraries(example PUBLIC MyLibrary)
 
 # Adding a third party library
-add_subdirectory(hdf5-1.14.3/CMake-hdf5-1.14.3/hdf5-1.14.3/c++/src)
+set(HDF5DIR "/hdf5/build")
+target_include_directories(read PRIVATE ${HDF5DIR}/include)
+target_link_directories(read PRIVATE ${HDF5DIR}/lib)
+target_link_libraries(read PRIVATE libhdf5.so libhdf5_cpp.so)
 
